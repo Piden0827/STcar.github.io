@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>精護汽車保修中心</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: #ffa500;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ffa500;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      border-bottom: 3px solid #ffa500;
+      padding-bottom: 8px;
+      color: #222;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex: 1 1 280px;
+      padding: 20px;
+      text-align: center;
+    }
+    .service-card img {
+      max-width: 60px;
+      margin-bottom: 12px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ffa500;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    .social {
+      margin-top: 15px;
+    }
+    .social a {
+      color: #ffa500;
+      margin: 0 10px;
+      font-size: 28px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .social a:hover {
+      color: #ffd369;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>精護汽車保修中心</h1>
+    <nav>
+      <a href="#about">關於我們</a>
+      <a href="#services">服務項目</a>
+      <a href="#gallery">車間實景</a>
+      <a href="#contact">聯絡方式</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>關於我們</h2>
+      <p>精護汽車保修中心致力於提供專業、高效、安心的汽車維修服務，無論是日常保養、故障排除還是精密檢查，我們都以客戶滿意為首要目標。</p>
+    </section>
+
+    <section id="services">
+      <h2>服務項目</h2>
+      <div class="services">
+        <div class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="引擎維修">
+          <h3>引擎維修</h3>
+          <p>引擎診斷、保養、零件更換與效率提升。</p>
+        </div>
+        <div class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/892/892634.png" alt="輪胎更換">
+          <h3>輪胎更換</h3>
+          <p>多品牌輪胎安裝與平衡檢查。</p>
+        </div>
+        <div class="service-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2919/2919602.png" alt="底盤檢修">
+          <h3>底盤檢修</h3>
+          <p>避震器、懸吊、煞車系統整合維修。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>車間實景</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de16451?auto=format&fit=crop&w=600&q=80" alt="車間1" />
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80" alt="車間2" />
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=600&q=80" alt="車間3" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>聯絡方式</h2>
+      <p>📞 電話：03-1234-5678</p>
+      <p>📍 地址：桃園市中壢區中山路123號</p>
+      <p>📧 Email：contact@jinghu-car.tw</p>
+      <div class="social">
+        <a href="https://www.facebook.com/yourpage" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/yourpage" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 精護汽車保修中心. 保留所有權利。</p>
+  </footer>
+
+</body>
+</html>
