@@ -4,13 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>精護汽車保修中心</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    integrity="sha512-+rF6TvHjGu4jqzHzRgy5QEkzogqN8UvUcC3EIN5u3D3Hi9rMJ0nlRMVYAjw6nF/nqmvGpShKw1Q9bD68x0RN9g=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
   <style>
     body {
       font-family: "Noto Sans TC", sans-serif;
@@ -96,87 +89,91 @@
     .social-icons {
       margin-top: 15px;
     }
-    .social-icons a i {
-      font-size: 32px;
+    .social-icons a {
+      display: inline-block;
       margin: 0 12px;
       color: #f0a500;
+      font-size: 28px;
+      text-decoration: none;
       transition: color 0.3s ease;
     }
-    .social-icons a:hover i {
+    .social-icons a:hover {
       color: #ffcd45;
     }
   </style>
+
+  <!-- ✅ 載入 Font Awesome for icon 顯示 -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <header>
+    <h1>精護汽車保修中心</h1>
+    <nav>
+      <a href="#about">關於我們</a>
+      <a href="#services">服務項目</a>
+      <a href="#gallery">車間實景</a>
+      <a href="#contact">聯絡我們</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>精護汽車保修中心</h1>
-  <nav>
-    <a href="#about">關於我們</a>
-    <a href="#services">服務項目</a>
-    <a href="#gallery">車間實景</a>
-    <a href="#contact">聯絡我們</a>
-  </nav>
-</header>
+  <main>
+    <section id="about">
+      <h2>關於我們</h2>
+      <p>精護汽車保修中心致力於提供專業且快速的汽車維修服務，從引擎保養到底盤檢修，我們的技術團隊均具豐富經驗，確保您的愛車狀況最佳。</p>
+    </section>
 
-<main>
-  <section id="about">
-    <h2>關於我們</h2>
-    <p>精護汽車保修中心致力於提供專業且快速的汽車維修服務，從引擎保養到底盤檢修，我們的技術團隊均具豐富經驗，確保您的愛車狀況最佳。</p>
-  </section>
-
-  <section id="services">
-    <h2>服務項目</h2>
-    <div class="services-list">
-      <div class="service-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="引擎維修" />
-        <h3>引擎維修</h3>
-        <p>專業引擎診斷與修復，提升動力與燃油效率。</p>
+    <section id="services">
+      <h2>服務項目</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="引擎維修" />
+          <h3>引擎維修</h3>
+          <p>專業引擎診斷與修復，提升動力與燃油效率。</p>
+        </div>
+        <div class="service-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/892/892634.png" alt="輪胎更換" />
+          <h3>輪胎更換</h3>
+          <p>各式輪胎更換與平衡，保障行車安全。</p>
+        </div>
+        <div class="service-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/2919/2919602.png" alt="底盤檢修" />
+          <h3>底盤檢修</h3>
+          <p>專業底盤檢測，確保行車穩定與舒適。</p>
+        </div>
       </div>
-      <div class="service-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/892/892634.png" alt="輪胎更換" />
-        <h3>輪胎更換</h3>
-        <p>各式輪胎更換與平衡，保障行車安全。</p>
+    </section>
+
+    <section id="gallery">
+      <h2>車間實景</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de16451?auto=format&fit=crop&w=600&q=80" alt="車間1" />
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80" alt="車間2" />
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=600&q=80" alt="車間3" />
       </div>
-      <div class="service-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/2919/2919602.png" alt="底盤檢修" />
-        <h3>底盤檢修</h3>
-        <p>專業底盤檢測，確保行車穩定與舒適。</p>
+    </section>
+
+    <section id="contact">
+      <h2>聯絡我們</h2>
+      <p>電話：03-1234-5678</p>
+      <p>地址：桃園市中壢區中山路123號</p>
+      <p>Email：service@carrepair.com.tw</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/st017520" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/stcar0701/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+        <a href="https://www.tiktok.com/@stcar0701" target="_blank" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section id="gallery">
-    <h2>車間實景</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1517430816045-df4b7de16451?auto=format&fit=crop&w=600&q=80" alt="車間1" />
-      <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80" alt="車間2" />
-      <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=600&q=80" alt="車間3" />
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>聯絡我們</h2>
-    <p>電話：03-1234-5678</p>
-    <p>地址：桃園市中壢區中山路123號</p>
-    <p>Email：service@carrepair.com.tw</p>
-    <div class="social-icons">
-      <a href="https://www.facebook.com/st017520" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a href="https://www.instagram.com/stcar0701/" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram-square"></i>
-      </a>
-      <a href="https://www.tiktok.com/@stcar0701" target="_blank" aria-label="TikTok">
-        <i class="fab fa-tiktok"></i>
-      </a>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <p>© 2025 精護汽車保修中心. 保留所有權利。</p>
-</footer>
-
+  <footer>
+    <p>© 2025 精護汽車保修中心. 保留所有權利。</p>
+  </footer>
 </body>
 </html>
